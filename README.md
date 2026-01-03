@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# ☕ Bonmano Coffee Shop - React Project
+
+A modern, responsive e-commerce landing page built with **React.js**. This project simulates a premium coffee shop experience with features like theme switching and shopping cart management.
+
+## 🚀 Key Features
+- **Shopping Cart:** Full functionality to add/remove and calculate totals.
+- **Theme Mode:** Toggle between Dark and Light mode (Settings saved in LocalStorage).
+- **Responsive Design:** Mobile-first approach using Flexbox and Grid.
+- **Dynamic UI:** Reusable components for products, services, and the "Coffee Club" section.
+
+## 🛠 Technologies
+- **Frontend:** React.js
+- **Styling:** CSS3 (Media Queries & Custom Properties)
+- **Data:** LocalStorage for state persistence.
+
+## 📦 Installation
+1. `npm install`
+2. `npm start`
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
