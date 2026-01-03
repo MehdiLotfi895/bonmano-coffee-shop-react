@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Dana-Regular-ttf";
+    src: url("../public/Dana-Regular.ttf");
+}
+#footer{
+    width:100%;
+    background-color:#3e4046;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height:300px;
+    direction: rtl;
+    font-family: "Dana-Regular-ttf";
+}
+
+.Nav li{
+    list-style-type:"_   ";
+    
+}
+@media screen and (max-width:580px) and (min-width:350px){
+    #footer{
+        height:1000px !important;
+        flex-direction: column;
+        justify-content:normal;
+        height: auto !important;
+        padding-bottom: 30px;
+    }
+    #y29{
+       width:90% !important;
+       margin-right: 5% !important;
+    }
+    #y30{
+        width:90% !important;
+        margin-right: 5% !important;
+        font-size: 14px;
+        margin-top: 30px !important;
+
+    }
+    #y31{
+        padding-right: 20px !important;
+        gap: 80px !important;
+    }
+    #y32{
+        width:90% !important;
+       margin-right: 5% !important;
+    }
+    #y33{
+        font-size: 14px;
+    }
+    #y34{
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .y35{
+        width:auto !important;
+        height: auto !important;
+        justify-content: normal !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    #y36{
+        margin-right: 0px !important;
+        margin-top: 10px;
+    }
+}

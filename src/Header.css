@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "Dana-Regular-ttf";
+    src: url("../public/Dana-Regular.ttf");
+}
+@font-face {
+    font-family: "Dana-Bold.ttf";
+    src: url("../public/Dana-Bold.ttf");
+}
+
+#container{
+    width:100%;
+    height: 720px;
+    background-image: url(../public/headerBgDesktop.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#header{
+    width:90%;
+    height:75px;
+    background-color: rgba(0,0, 0,0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    left: 5%;
+    top:30px;
+    font-family:"Dana-Regular-ttf" ;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    font-family: "Dana-Regular-ttf";
+}
+
+#nav{
+   height:100%;
+   width:40%;
+   margin-left:37%;
+}
+
+#navBar{
+    display: flex;
+    gap:5%;
+    align-items: center;
+    font-size: 15px;
+    height:100%;
+    width:100%;
+}
+
+.headerLinks{
+    color:white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+#appLogo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#login{
+    display:flex;
+    align-items: center;
+    width:20%;
+    font-size: 15px;
+    margin-left: 3%;
+    
+   
+}
+#loginAndRegister{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:#e8d7b9;
+    
+
+}
+.headerLogin{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#line{
+    width:0.1px;
+    height:60%;
+    background-color:#cfcfcc ;
+}
+
+#colorTheme{
+    background-color: transparent;
+    margin-left: 2%;
+    border: none;
+   
+}
+
+#description{
+    color:white;
+    direction: rtl;
+    position: absolute;
+    right: 60%;
+    top:230px;
+    font-family:"Dana-Regular-ttf" ;
+}
+
+#pageName{
+    font-family: "Dana-Bold.ttf";
+    font-size: 45px;
+}
+.MenuLink{
+    color:rgb(73, 70, 70);
+    text-decoration: none;
+}
+#MenuLinks{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.MenuLink:hover{
+    color:#f59f0bff !important
+}
+
+#shoppingBasket{
+    width:23.5%;
+    height:240px;
+    background-color: white;
+    position: absolute;
+    top:60px;
+    left:18.5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#shppingPage{
+    color:white;
+    background-color: rgb(16,147,138);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family:"Dana-Regular-ttf" ;
+    margin-top:40px;
+}
+#shppingPage:hover{
+    background-color: #0f766e;
+}
+.shopLines{
+    
+    width:92%;
+    margin-right:4%;
+    height:1px;
+    margin-top:20px
+}
+
+.orderButton{
+    background-color:rgb(16,147,138);
+    color:white;
+    width:70%;
+    height:40px;
+    border:none;
+    font-family:"Dana-Regular-ttf";
+    border-radius:10px;
+    margin-right:30%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+
+}
+
+.orderButton:hover{
+    background-color:#0f766e;
+}
+#forMobile{
+    display:none;
+}
+#hp{
+    font-size:30px;
+}
+#line1{
+    width:30%;
+    height:1px;
+    background-color:#e8d7b9;
+    margin-top:25px;
+}
+#dc{
+    margin-top: 25px;
+    width:53%;
+}
+#menuForMobile{
+    display: none;
+}
+#shopbasketMobile{
+    display:none ;
+}
+@media screen and (max-width:580px) and (min-width:350px){
+    #header{
+        display:none;
+    }
+    #forMobile{
+        display: block;
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:98%;
+    }
+    #description{
+        top:90px;
+        right:50%;
+    }
+    #pageName{
+        font-size: 19px ;
+        margin-bottom: 5px;
+    }
+    #hp{
+        font-size: 15px;
+    }
+    #line1{
+        margin-top: 15px;
+        width:50%;
+    }
+    #dc{
+        margin-top: 15px;
+        font-size: 11px;
+        width:90%;
+    }
+    #container{
+        background-image: url('../public/headerBgMobile.webp');
+        width:100%;
+        height: 35vh;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    #menuForMobile{
+        display:block;
+        position: fixed;
+        height:100vh;
+        width: 60vw;
+        background-color: white;
+        right: 0;
+        z-index: 10000;
+        direction: rtl;
+        
+    }
+    .img{
+        width:20px;
+        height:20px;
+    }
+    #shopbasketMobile{
+       display: block;
+       height: 100vh;
+       width: 70vw;
+       position: fixed;
+       background-color: white;
+       left: 0px;
+       z-index: 10000;
+       direction: rtl;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    
+}

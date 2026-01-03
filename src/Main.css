@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Dana-Regular-ttf";
+    src: url("../public/Dana-Regular.ttf");
+}
+@font-face {
+    font-family: "Dana-Bold.ttf";
+    src: url("../public/Dana-Bold.ttf");
+}
+#main{
+    background-image: url("../public/body-bg.png");
+    width:100%;
+    height:3300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    direction: rtl;
+    font-family: "Dana-Regular-ttf";
+}
+@media screen and (max-width:580px) and (min-width:350px){
+    #main{
+        background-image: none;
+        height:auto;
+        padding-bottom: 70px;
+    }
+    #lastestProducts{
+        top:20px !important;
+        font-size: 15px !important;
+        right:3% !important;
+    }
+    #dc2{
+       font-size: 12px !important;
+       top: 30px !important;
+       right:3% !important;
+    }
+    #dc3{
+        font-size: 12px !important;
+        top: 14px !important;
+        right:63% !important;
+    }
+    #dc4{
+        margin-top: 0.5px !important;
+    }
+    #Producs{
+        margin-top: 40px !important;
+        margin-right: 3% !important;
+        width:95% !important;
+        gap:10px 3% !important;
+    }
+    #sectionss{
+        flex-direction: column !important;
+        width:90% !important;
+        margin-right: 5% !important;
+        gap:20px !important;
+    }
+    #y4{
+       width:90% !important;
+       margin-right: 5% !important;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 20px 10% !important;
+
+    }
+    #y7{
+        top:50px !important;
+        font-size: 15px !important;
+        right:30px !important;
+    }
+    #y8{
+        font-size: 13px !important;
+        top:60px !important;
+        right: 30px !important;
+    }
+    .y9{
+        display: none !important;
+    }
+    #y10{
+        flex-wrap: wrap;
+        width:90% !important;
+        margin-right: 5% !important;
+        gap: 10px 2% !important;
+        margin-top: 100px !important;
+    }
+    #y11{
+        width:90% !important;
+        margin-right: 5% !important;
+        margin-top :40px !important;
+        
+    }
+    #y12{
+        width:90% !important;
+        margin-right: 5% !important;
+        margin-top: 40px !important;
+    }
+    #y13{
+        font-size: 16px !important;
+    }
+    #y14{
+        font-size: 13px !important;
+    }
+    #y15{
+        margin-top: 3px !important;
+    }
+    #y16{
+        width:90% !important;
+        margin-right: 5% !important;
+        flex-direction: column;
+        gap:10px;
+    }
+    #y18{
+      flex-direction: column;
+      width:90% !important;
+      margin-right: 5% !important;
+    }
+    #y20{
+        width:80% !important;
+        margin-right: 10%;
+    }
+    #y21{
+       margin-top: 30px;
+    }
+    #y22{
+       font-size: 25px !important;
+    }
+    #y23{
+        font-size: 15px !important;
+    }
+    #y24{
+        font-size: 16px !important;
+    }
+    #y25{
+        width:90% !important;
+        margin-right: 5% !important;
+        flex-wrap: wrap;
+        
+    }
+    #y26{
+        width:49% !important;
+        flex-direction: column ;
+        margin-top: 20px;
+       
+    }
+    #y27{
+        align-items: center;
+    }
+}
